@@ -12,7 +12,7 @@ async function handleRequest(request) {
   // 替换成你实际使用的域名
   const expectedHost = "pypi.guoyuancode.dpdns.org"; 
   if (host !== expectedHost) {
-    return new Response("您需要修改Workers中的域名才能正常使用！", { status: 400 });
+    return new Response("嘿，煞笔，大煞笔，域名TM是pypi.guoyuancode.dpdns.org，别TM搞错了", { status: 400 });
   }
 
   if (pathname.startsWith("/simple")) {
