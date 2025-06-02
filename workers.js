@@ -106,7 +106,7 @@ async function handleRequest(request) {
     <div class="container">
         <h1>喵喵~我的PyPI仓库启动成功啦☆*:・ヽ(＾∀＾)ﾉ・:*☆</h1>
         
-        <div class="neko">（ฅ´ω`ฅ）主人不要慌张～这里有超~详细的指引哟！</div>
+        <div class="neko">(´ω｀)主人不要慌张～这里有超~详细的指引哟！</div>
 
         <div class="command-box">
             <p>下载包的时候要这样写：</p>
