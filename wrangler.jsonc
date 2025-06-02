@@ -1,0 +1,5 @@
+{
+  "name": "guoyuancodepypi",
+  "compatibility_date": "2025-06-02",
+  "main": "workers.js"
+}
