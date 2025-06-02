@@ -105,7 +105,7 @@ async function handleRequest(request) {
 <body>
     <div class="container">
         <h1>喵喵~我的PyPI仓库启动成功啦☆*:・ヽ(＾∀＾)ﾉ・:*☆</h1>
-        
+        <div class="neko"><p>当前 CDN 节点: <span id="cdn" class="loading">检测中...</span></p></div>
         <div class="neko">(´ω｀)主人不要慌张～这里有超~详细的指引哟！</div>
 
         <div class="command-box">
@@ -126,6 +126,7 @@ async function handleRequest(request) {
             （≧▽≦）主人一定要记得设置默认源哦！这样以后安装包就会快很多啦~☆
         </div>
     </div>
+    <script src="https://guoyuancode.dpdns.org/cdn.js"></script>
 </body>
 </html>
     `,
