@@ -10,9 +10,9 @@ async function handleRequest(request) {
   const { host, pathname } = new URL(request.url)
 
   // 替换成你实际使用的域名
-  const expectedHost = "pypi.guoyuancode.dpdns.org"; 
+  const expectedHost = "pypi.gystu.top"; 
   if (host !== expectedHost) {
-    return new Response("嘿，煞笔，大煞笔，域名TM是pypi.guoyuancode.dpdns.org，别TM搞错了。还有别白嫖我服务器cname没有用的。", { status: 400 });
+    return new Response("嘿，煞笔，大煞笔，域名TM是pypi.gystu.top，别TM搞错了。还有别白嫖我服务器cname没有用的。", { status: 400 });
   }
 
   if (pathname.startsWith("/simple")) {
@@ -41,7 +41,7 @@ async function handleRequest(request) {
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="https://guoyuancode.dpdns.org/favicon.ico" />
+    <link rel="shortcut icon" href="https://gystu.top/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>喵~我的PyPI小仓库在这里哟！</title>
     <style>
@@ -110,23 +110,23 @@ async function handleRequest(request) {
 
         <div class="command-box">
             <p>下载包的时候要这样写：</p>
-            <code>pip install 包名 -i https://pypi.guoyuancode.dpdns.org/simple</code>
+            <code>pip install 包名 -i https://pypi.gystu.top/simple</code>
             
             <p>设置默认源的方法：</p>
-            <code>pip config set global.index-url https://pypi.guoyuancode.dpdns.org/simple</code>
+            <code>pip config set global.index-url https://pypi.gystu.top/simple</code>
             
             <p>如果报错需要更新pip：</p>
-            <code>python -m pip install -U -i https://pypi.guoyuancode.dpdns.org/simple pip</code>
+            <code>python -m pip install -U -i https://pypi.gystu.top/simple pip</code>
 
             <p>如果仍然报错需要设置信任：</p>
-            <code>pip config set global.trusted-host pypi.guoyuancode.dpdns.org</code>
+            <code>pip config set global.trusted-host pypi.gystu.top</code>
         </div>
 
         <div class="warning">
             （≧▽≦）主人一定要记得设置默认源哦！这样以后安装包就会快很多啦~☆
         </div>
     </div>
-    <script src="https://guoyuancode.dpdns.org/cdn.js"></script>
+    <script src="https://gystu.top/cdn.js"></script>
 </body>
 </html>
     `,
